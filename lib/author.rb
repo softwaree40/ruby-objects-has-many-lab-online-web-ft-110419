@@ -6,6 +6,7 @@ class Author
    end
      def posts
         @arry = []
+        post = Post.new 
      end
   
 end
