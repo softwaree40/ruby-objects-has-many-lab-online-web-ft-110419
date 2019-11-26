@@ -5,7 +5,7 @@ class Author
      
    end
      def posts
-       
+        @arry = []
      end
   
 end
