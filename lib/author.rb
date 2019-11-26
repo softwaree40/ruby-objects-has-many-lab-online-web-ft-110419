@@ -5,22 +5,20 @@ class Author
       @name = name
    end
    
-     def posts
-       Post.all.select {|post| post.author == self}
-     end
+   def posts
+     Post.all.select {|post| post.author_name == self}
+   end
   
     def add_post(post)
-       post.author = self
+       post.author_name = self
+    end
+    
+    def add_post_by_title(post_name)
+      post = Post.new(post_name)
+      add_post(post)
      end
-      def add_post_by_title(post_name)
-          post = Post.new(post_name)
-          add_post(post)
-          #binding.pry
-          
-       end
-       def self.post_count
-           
-           Post.all.count
-             
-      end
+       
+    def self.post_count
+       Post.all.count
+    end
 end
