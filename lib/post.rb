@@ -1,9 +1,10 @@
 class Post
       attr_accessor :name 
+      @@all = []
+      
     def initialize(name)
       @name = name 
-      @@alll = []
+      @@all << self
     end
-     def 
   
 end
