@@ -27,6 +27,6 @@ class Artist
            
            Song.all
            
-          binding.pry
+          #binding.pry
        end
 end
