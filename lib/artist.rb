@@ -23,4 +23,5 @@ class Artist
           #binding.pry
           
        end
+       def 
 end
