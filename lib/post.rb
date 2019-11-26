@@ -4,6 +4,6 @@ class Post
       @name = name 
       @@alll = []
     end
-  
+     def 
   
 end
