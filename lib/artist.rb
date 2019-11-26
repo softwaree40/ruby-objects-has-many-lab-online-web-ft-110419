@@ -24,8 +24,8 @@ class Artist
           
        end
        def self.song_count
-           
-           Song.all
+           total = 0
+           total[songs]+=1
            
           #binding.pry
        end
