@@ -24,8 +24,8 @@ class Artist
           
        end
        def self.song_count
-           total = 0
-           Song.all.each do |num|
+           
+           Song.all.count
              binding.pry
            end
            
