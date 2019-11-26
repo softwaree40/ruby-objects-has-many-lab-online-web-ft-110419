@@ -4,9 +4,5 @@ class Author
       @name = name
      
    end
-   def posts
-      new_array = Array.new
-   end
-
-
+  
 end
