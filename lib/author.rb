@@ -5,7 +5,7 @@ class Author
      
    end
    def posts
-      
+      new_array = Array.new
    end
 
 
